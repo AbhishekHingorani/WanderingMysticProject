@@ -1,0 +1,118 @@
+name: wandering_mystic
+description: A new Flutter project.
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^0.1.2
+  http: ^0.12.0
+  scoped_model: ^0.3.0
+  lazy_load_scrollview: ^0.0.2
+  photo_view: ^0.0.10
+  carousel_pro: ^0.0.13
+  flutter_rating: ^0.0.2
+  shared_preferences: ^0.4.3
+  flutter_swiper: ^1.1.4
+  auto_size_text: ^0.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+# For information on the generic Dart part of this file, see the
+# following page: https://www.dartlang.org/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/images/varanasi.jpg
+    - assets/images/iphone.jpg
+    - assets/images/loginbackground.png
+    - assets/images/logo.png
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.io/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.io/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  fonts:
+    - family: icomoon
+      fonts:
+        - asset: assets/fonts/icomoon.ttf
+    - family: profilepageicons
+      fonts:
+        - asset: assets/fonts/profilepageicons.ttf
+    - family: SFProBlack
+      fonts:
+        - asset: assets/fonts/SF-Pro-Display-Black.otf
+    - family: SFProBlackItalic
+      fonts:
+        - asset: assets/fonts/SF-Pro-Display-BlackItalic.otf
+    - family: SFProBold
+      fonts:
+        - asset: assets/fonts/SF-Pro-Display-Bold.otf
+    - family: SFProBoldItalic
+      fonts:
+        - asset: assets/fonts/SF-Pro-Display-BoldItalic.otf
+    - family: SFProHeavy
+      fonts:
+        - asset: assets/fonts/SF-Pro-Display-Heavy.otf
+    - family: SFProHeavyItalic
+      fonts:
+        - asset: assets/fonts/SF-Pro-Display-HeavyItalic.otf
+    - family: SFProLight
+      fonts:
+        - asset: assets/fonts/SF-Pro-Display-Light.otf
+    - family: SFProLightItalic
+      fonts:
+        - asset: assets/fonts/SF-Pro-Display-LightItalic.otf
+    - family: SFProMedium
+      fonts:
+        - asset: assets/fonts/SF-Pro-Display-Medium.otf
+    - family: SFProMediumItalic
+      fonts:
+        - asset: assets/fonts/SF-Pro-Display-MediumItalic.otf
+    - family: SFPro
+      fonts:
+        - asset: assets/fonts/SF-Pro-Display-Regular.otf
+    - family: SFProItalic
+      fonts:
+        - asset: assets/fonts/SF-Pro-Display-RegularItalic.otf
+    - family: SFProSemiBold
+      fonts:
+        - asset: assets/fonts/SF-Pro-Display-Semibold.otf
+    - family: SFProSemiBoldItalic
+      fonts:
+        - asset: assets/fonts/SF-Pro-Display-SemiboldItalic.otf
+    - family: SFProThin
+      fonts:
+        - asset: assets/fonts/SF-Pro-Display-Thin.otf
+    - family: SFProThinItalic
+      fonts:
+        - asset: assets/fonts/SF-Pro-Display-ThinItalic.otf
+    - family: SFProUltraLight
+      fonts:
+        - asset: assets/fonts/SF-Pro-Display-Ultralight.otf
+    - family: SFProUltraLightItalic
+      fonts:
+        - asset: assets/fonts/SF-Pro-Display-UltralightItalic.otf
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.io/custom-fonts/#from-packages
